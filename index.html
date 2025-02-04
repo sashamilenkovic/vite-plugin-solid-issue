@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS + React + Solid</title>
+  </head>
+  <body>
+    <div id="app-react" class="app"></div>
+    <script type="module" src="./react/main.tsx"></script>
+    <!--<div id="app-solid" class="app"></div>
+    <script type="module" src="./solid/main.tsx"></script>-->
+  </body>
+</html>
+
+<style>
+  body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .divider {
+    background-color: #000;
+    height: 1px;
+  }
+
+  .app {
+    width: 25%;
+    height: 100vh;
+    position: relative;
+  }
+
+  .logo {
+    width: 4em;
+    height: 4em;
+    position: absoulte;
+    top: 0;
+    left: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .content {
+    padding: 2em 0;
+  }
+
+  ul {
+    display: flex;
+    padding: 0;
+  }
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    background-color: white !important;
+    width: 50px;
+    min-width: 50px;
+  }
+</style>
